@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>UMKM Nusantara</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #1b5e20;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #2e7d32;
+        }
+
+        .produk {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: #fafafa;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 250px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            background-color: #ccc;
+            margin-bottom: 10px;
+        }
+
+        .card button {
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .card button:hover {
+            background-color: #1b5e20;
+        }
+
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>UMKM Nusantara</h1>
+    <p>Produk Lokal Berkualitas</p>
+</header>
+
+<nav>
+    <a href="about.html">
+    	<button>Tentang</button>
+	</a>
+    <a href="#produk">Produk</a>
+    <a href="#kontak">Kontak</a>
+</nav>
+
+<div class="container">
+
+    <div class="section" id="tentang">
+        <h2>Tentang Kami</h2>
+        <p>
+            UMKM Nusantara adalah usaha kecil menengah yang menyediakan berbagai produk lokal
+            berkualitas dengan harga terjangkau. Kami mendukung produk dalam negeri dan
+            memberdayakan pengusaha lokal.
+        </p>
+    </div>
+
+    <div class="section" id="produk">
+        <h2>Produk Kami</h2>
+        <div class="produk">
+            <div class="card">
+                <img alt="Produk 1">
+                <h3>Produk A</h3>
+                <p>Harga: Rp25.000</p>
+                <a href="pembayaranA.html">
+    		<button>Beli</button>
+		</a>
+
+            </div>
+
+            <div class="card">
+                <img alt="Produk 2">
+                <h3>Produk B</h3>
+                <p>Harga: Rp30.000</p>
+		<a href="pembayaranB.html">
+    		<button>Beli</button>
+		</a>
+
+            </div>
+
+            <div class="card">
+                <img alt="Produk 3">
+                <h3>Produk C</h3>
+                <p>Harga: Rp20.000</p>
+		<a href="pembayaranC.html">
+    		<button>Beli</button>
+		</a>
+
+                </div>
+        </div>
+    </div>
+
+    <div class="section" id="kontak">
+        <h2>Kontak</h2>
+        <p>Email : aryaarya@gmail.com</p>
+        <p>WhatsApp : 089662766434</p>
+        <p>Alamat : Jakarta, Indonesia</p>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 aryayudha</p>
+</footer>
+
+</body>
+</html>
